@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@layer base {
+  :root {
+    --background: 40 33% 97%;
+    --foreground: 20 20% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 20% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 20% 15%;
+
+    --primary: 25 75% 47%;
+    --primary-foreground: 40 33% 97%;
+
+    --secondary: 35 40% 90%;
+    --secondary-foreground: 20 20% 15%;
+
+    --muted: 35 20% 93%;
+    --muted-foreground: 20 10% 50%;
+
+    --accent: 200 60% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 30 20% 88%;
+    --input: 30 20% 88%;
+    --ring: 25 75% 47%;
+
+    --radius: 0.625rem;
+
+    --calendar-today: 25 75% 47%;
+    --calendar-range: 25 70% 92%;
+    --calendar-range-edge: 25 75% 47%;
+    --calendar-hover: 35 30% 94%;
+    --calendar-outside: 20 10% 70%;
+    --calendar-holiday: 0 70% 55%;
+    --calendar-note-dot: 200 60% 50%;
+
+    --shadow-card: 0 4px 24px -4px hsl(20 20% 15% / 0.08);
+    --shadow-elevated: 0 8px 32px -8px hsl(20 20% 15% / 0.12);
+
+    --font-display: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer utilities {
+  .calendar-shadow {
+    box-shadow: var(--shadow-card);
+  }
+  .calendar-shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+}
