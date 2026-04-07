@@ -7,20 +7,20 @@ This project demonstrates frontend engineering skills including UI design, state
 
 ## 🚀 Features
 
-* 📆 Wall calendar layout inspired by real-world design
-* 📅 Date range selection (start date → end date)
-* 📝 Notes section with localStorage persistence
-* 📱 Fully responsive (mobile + desktop support)
-* 🎯 Clean UI with proper visual feedback
+- 📆 Wall calendar layout inspired by real-world design
+- 📅 Date range selection (start date → end date)
+- 📝 Notes section with localStorage persistence
+- 📱 Fully responsive (mobile + desktop support)
+- 🎯 Clean UI with proper visual feedback
 
 ---
 
 ## 🛠️ Tech Stack
 
-* React (Vite)
-* TypeScript
-* Tailwind CSS
-* LocalStorage
+- React (Vite)
+- TypeScript
+- Tailwind CSS
+- LocalStorage
 
 ---
 
@@ -35,10 +35,10 @@ npm run dev
 
 ## 📌 Key Highlights
 
-* Component-based architecture
-* Custom calendar logic using hooks
-* Clean and maintainable code structure
-* No backend (frontend-only project)
+- Component-based architecture
+- Custom calendar logic using hooks
+- Clean and maintainable code structure
+- No backend (frontend-only project)
 
 ---
 
