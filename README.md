@@ -44,13 +44,13 @@ npm run dev
 
 ## 🌐 Live Demo
 
-(Add your deployed link here)
+https://interactive-calendar-component-sigma.vercel.app/
 
 ---
 
 ## 🎥 Demo Video
 
-(Add your video link here)
+https://www.loom.com/share/b1fbbf5c571d484ca890c181cef030a6
 
 ---
 
